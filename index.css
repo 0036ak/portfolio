@@ -1,0 +1,322 @@
+body {
+    background-color: rgb(192, 222, 248);
+    margin: 0 auto;
+    width: auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.spacer {
+    width: 20px;
+}
+
+@keyframes typing {
+    to {
+        opacity: 1;
+    }
+}
+
+.typed {
+    opacity: 0;
+    animation: typing 2s steps(2, end) forwards;
+}
+
+.navbar {
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: rgb(168, 123, 211);
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.navbar:hover {
+    background-color: rgb(148, 103, 191);
+}
+
+.special {
+    border-radius: 40%;
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.special:hover {
+    transform: scale(1.1);
+}
+
+.navbar a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.intro h1, .intro p {
+    text-align: center;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.intro p {
+    font-size: 20px;
+}
+
+.programming img {
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.developement img {
+    height: 250px;
+    width: 200px;
+}
+
+#myphoto {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 50px auto 0;
+    display: block;
+    margin-top: 150px;
+    
+    
+}
+
+
+.nav {
+    display: flex;
+    margin: 5% auto;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #666;
+}
+
+#programming {
+    height: 500px;
+}
+
+
+.about {
+    margin-top: 13%;
+    height: 500px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.about p {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.skills h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.programming {
+    margin-left: 30%;
+}
+
+.programming img {
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.developement {
+    margin: 5% 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.developement img {
+    height: 150px;
+    width: 150px;
+    padding: 3%;
+}
+
+.Software img {
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+#section5 {
+    text-align: center;
+}
+
+.project1, .project2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.project1 img, .project2 img {
+    height: 400px;
+    width: 700px;
+}
+
+.project1_left, .project2_left {
+    width: 300px;
+}
+
+.experience {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+    margin-top: 12%;
+    background-image: url(./tranning.png);
+    background-size: cover;
+}
+
+.experience::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(170, 170, 170, 0.336);
+}
+
+.ex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience1 {
+    background-color: rgb(98, 175, 243);
+    border: 5px inset gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(192, 222, 248);
+}
+
+.contact {
+    margin-top: 12%;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    height: 600px;
+}
+
+.contact p {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-right img {
+    height: 300px;
+    width: 300px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.Contact-left-title h2 {
+    font-weight: 600;
+    color: #a363aa;
+}
+
+.Contact-left-title hr {
+    border: none;
+    width: 250px;
+    height: 5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+    transition: border 0.3s ease;
+}
+
+.contact-inputs:focus {
+    border: solid 2px black;
+}
+
+.contact-inputs::placeholder {
+    color: rgb(209, 135, 190);
+}
+
+.contact-left textarea {
+    height: 100px;
+    padding-top: 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(#ff994f, #fa6d86);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-left button:hover {
+    background: linear-gradient(#fa6d86, #ff994f);
+}
